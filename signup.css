@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family:"Lato", sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.form{
+    background-color: #ffffff;
+    width: 600px;
+    border-radius: 8px;
+    
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+.logo{
+    position: relative;
+    top: 20px;
+    left: 32%;
+}
+h1{
+    position: relative;
+    top: -100px;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 72px;
+    text-align: center;
+}
+.content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: -120px;
+}
+label{
+    position: relative;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    left: -210px;
+    top: 6px;
+}
+.name{
+    width: 400px;
+    height: 30px;
+    padding: 10px 50px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #C9C6C6;
+    background: #C9C6C6;
+}
+#email{
+    left: -193px;
+}
+#phone{
+    position: relative;
+    width: 154px;
+    height: 50px;
+    left: -8px;
+    border-radius: 10px;
+}
+#number{
+    position: relative;
+    width: 320px;
+    height: 45px;
+    gap: 40px;
+    left: 10px;
+    border-radius: 10px;
+    background: #C9C6C6;
+}
+.submitBtn{
+    position: relative;
+    width: 500px;
+    height: 50px;
+    top: 80px;
+    border: #171582;
+    border-radius: 15px;
+    background: #171582;
+    color: #ffffff;
+    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.25);
+}
